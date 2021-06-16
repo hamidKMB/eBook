@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- googleapis googleFonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="styles/favicon.ico">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>eBook</title>
+</head>
+<body>
+    <div class="spinner-holder">
+    <div class="spinner-border m-5" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    </div>
+    <!-- Navbar -->
+        <nav class="navbar-customized">
+            <div class="container">
+            <span class="logo">
+                <a href="#">
+                    <img src="styles/logo.png" alt="logo"/>
+                </a>
+            </span>
+            <div class="right-content">
+                <div class="links">
+                    <ul class="ul-links">
+                        <li id="landing"><a href="#">Landings <i class="fas fa-caret-down"></i></a>
+                            <div class="landing-dropdown">
+                                <div class="image-left">
+                                </div>
+                                <table class= "table-right">
+                                    <tr>
+                                        <td><a href="#" >Saas Service </a></td>
+                                        <td><a href="#" >Software </a></td>
+                                        <td><a href="#" >Software 2.0 </a></td>
+                                        <td><a href="#" >Mobile App </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" >Job Directory </a></td>
+                                        <td><a href="#" >Real State </a></td>
+                                        <td><a href="#" >Course </a></td>
+                                        <td><a href="#" >Desktop App </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" >Startup Agency </a></td>
+                                        <td><a href="#" >Finance Service </a></td>
+                                        <td><a href="#" >App </a></td>
+                                        <td><a href="#" >Web Applications </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" >Industry </a></td>
+                                        <td><a href="#" >Mental Health </a></td>
+                                        <td><a href="#" >Saas Subscription </a></td>
+                                        <td><a href="#" >eBook </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" >Furniture Shop </a></td>
+                                        <td><a href="#" >Saas Applications </a></td>
+                                        <td><a href="#" >Digital Services </a></td>
+                                        <td><a href="#" >Social App </a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                        <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+                            <!-- <div class="drop-down-pages"> -->
+                                <ul class="dropdown-pages">
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        About Us</a>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Contact Us</a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                Contact 1
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                Contact 2
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Blog </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Blog Category
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Blog Regular
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Blog Details
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Portfolios </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Grid
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Metri
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Minimal
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Portfolio Details </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Details 1
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Details 2
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Details 3
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Portfolio Details 4
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Services </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Service
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Service Details
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Career </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Careers
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Career Details
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Testimonials </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Testimonial 01
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Testimonial 02
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Pricing </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Pricing 01
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Pricing 02
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Account </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Sign in 01
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Sign in 02
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Sign in 03
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Sign up 01
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Sign up 02
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-pages-items" href="#">
+                                        Utility </a><i class="fas fa-caret-right"></i>
+                                        <ul class="dropdown-pages-1">
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    FAQ
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    Terms & Conditions
+                                            </a></li>
+                                            <li><a href="#" class="dropdown-pages-items">
+                                                    404 Error 
+                                            </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <button id="navbar-button" type="button" class="btn btn-warning">
+                    Read Now!
+                </button>
+                <!-- hamburger Menu Start-->
+                <span class="open-slide">
+                    <a href="#">
+                        <i onclick="openSlideMenu()" class="fas fa-bars fa-3x"></i> 
+                    </a>
+                </span>
+                <!-- hamburger Menu End-->
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- sideMenu Start -->
+        <div id="side-menu" class="side-nav">
+            <div id="side-menu-details" class="side-nav-detail accordin">
+                <div class="close-container">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()"></a>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <a href="#" role="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="flase" aria-controls="collapseOne">
+                                <span>Landings</span><i class="fas fa-caret-right"></i>
+                        </a>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <a href="#">Saas Service </a>
+                            <a href="#">Software </a>
+                            <a href="#">Software 2.0</a>
+                            <a href="#">Mobile App </a>
+                            <a href="#">Job Directory </a>
+                            <a href="#">Real State </a>
+                            <a href="#">Course </a>
+                            <a href="#">Desktop App </a>
+                            <a href="#">Startup Agency </a>
+                            <a href="#">Finance Service </a>
+                            <a href="#">App </a>
+                            <a href="#">Web Applications </a>
+                            <a href="#">Industry </a>
+                            <a href="#">Mental Health </a>
+                            <a href="#">Saas Subscription </a>
+                            <a href="#">eBook </a>
+                            <a href="#">Furniture Shop </a>
+                            <a href="#">Saas Applications </a>
+                            <a href="#">Digital Services </a>
+                            <a href="#">Social App </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <a href="#" class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                                <span>Pages</span><i class="fas fa-caret-right"></i></a>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <a href="#">About Us</a>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree" href="#">
+                                            Contact Us <i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Contact 01</a>
+                                        <a href="#">Contact 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading4">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                                        aria-expanded="false" aria-controls="collapse4" href="#">
+                                        Blog<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Blog Category</a>
+                                        <a href="#">BLog Regular</a>
+                                        <a href="#">BLog Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading5">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                                        aria-expanded="false" aria-controls="collapse5" href="#">
+                                        Portfolios<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Portfolio Grid</a>
+                                        <a href="#">Portfolio Metri</a>
+                                        <a href="#">Portfolio Minimal</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading6">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse6"
+                                        aria-expanded="false" aria-controls="collapse6" href="#">
+                                        Portfolio Details<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Portfolio Detail 01</a>
+                                        <a href="#">Portfolio Detail 02</a>
+                                        <a href="#">Portfolio Detail 03</a>
+                                        <a href="#">Portfolio Detail 04</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading7">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                                        aria-expanded="false" aria-controls="collapse7" href="#">
+                                        Services<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Services</a>
+                                        <a href="#">Services Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading8">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse8"
+                                        aria-expanded="false" aria-controls="collapse8" href="#">
+                                        Career<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Careers</a>
+                                        <a href="#">Careers Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading9">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse9"
+                                        aria-expanded="false" aria-controls="collapse9" href="#">
+                                        Testimonials<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Testimonials 01</a>
+                                        <a href="#">Testimonials 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading10">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse10"
+                                        aria-expanded="false" aria-controls="collapse10" href="#">
+                                        Pricing<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Pricing 01</a>
+                                        <a href="#">Pricing 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading11">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse11"
+                                        aria-expanded="false" aria-controls="collapse11" href="#">
+                                        Account<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">Sign in 01</a>
+                                        <a href="#">Sign in 02</a>
+                                        <a href="#">Sign in 03</a>
+                                        <a href="#">Sign up 01</a>
+                                        <a href="#">Sign up 02</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading12">
+                                    <a class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#collapse12"
+                                        aria-expanded="false" aria-controls="collapse12" href="#">
+                                        Utility<i class="fas fa-caret-right"></i></a>
+                                </h2>
+                                <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="#">FAQ</a>
+                                        <a href="#">Terms & Conditions</a>
+                                        <a href="#">404 Error</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 style="margin:0;"><a href="#" class="accordion-button collapsed"><span>Blog</span></a></h2>
+                <h2><a href="#" class="accordion-button collapsed"><span>Support</span></a></h2>
+            </div>
+        </div>
+    </div>
+    <!-- sideMenu end -->
+
+    <!-- Hero Section -->
+    <div id="main" class="hero">
+        <div class="container">
+        <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <img class="w-100" src="https://finestdevs.com/demos/shade-preview/image/l10/hero-img.svg" alt="logo">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="hero-details">
+                        <h1>Make A Beautiful Landing Page</h1>
+                        <h5>Our mission is to be recognised globally as the leading consultancy exclusively focused on data and information
+                        excellence.</h5>
+                        <div class="form">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                                <button class="btn btn-warning">Get First Chapter for free</button>
+                            </div>
+                        </div>
+                        <span>Read by over 50,000+ UX Designers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Services  -->
+    <div class="services">
+        <div class="container">
+            <div class="services-detail">
+                <h6>Your benefits from this</h6>
+                <h1>Easy payment process using messenger.</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#EFD358;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    User Interview
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#81E2CC;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    Problem Solving
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#2780FF;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    Portfolio Making
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#B8E986;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    Prototyping
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#F69F51;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    Wireframing Skill
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="service-content d-flex flex-row justify-content-start">
+                            <div class="icon-box">
+                                <i class="fas fa-check-circle" style="color:#9E84FF;"></i>
+                            </div>
+                            <div class="service-description d-flex flex-column text-start">
+                                <h5 class="service-header">
+                                    Visual Design
+                                </h5>
+                                <p class="service-paragraph">
+                                    Create events and see how they all fit into the bigger picture.
+                                    Be one step ahead
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Customers  -->
+    <div class="customers">
+        <div class="container">
+            <h5 class="customers-header">We are proud to have some big brands as our customer</h5>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 image-grayscale">
+                    <img src="https://finestdevs.com/demos/shade-preview/image/l8/brand-logo-1.svg" alt="logo-1">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 image-grayscale">
+                    <img src="https://finestdevs.com/demos/shade-preview/image/l8/brand-logo-2.svg" alt="logo-2">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 image-grayscale">
+                    <img src="https://finestdevs.com/demos/shade-preview/image/l8/brand-logo-3.svg" alt="logo-3">
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-6 col-xs-12 image-grayscale">
+                    <img src="https://finestdevs.com/demos/shade-preview/image/l8/brand-logo-4.svg" alt="logo-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Customers End -->
+
+    <!-- User Experience rate -->
+        <div class="ux">
+            <div class="container">
+                <div class="ux-holder">
+                    <div class="row">
+                        <div class="col-lg-6  col-md-6 col-sm-12">
+                            <div class="image-holder p-5">
+                                <img src="styles/content-img.png" alt="content-image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6  col-md-6 col-sm-12">
+                            <div class="content-holder p-5 align-items-center text-center">
+                                <h1 class="mb-4">
+                                    #1 User Experience book on Amazon.com
+                                </h1>
+                                <p class="mb-4">
+                                    Our mission is to be recognised globally as the leading consultancy exclusively focused on data and information
+                                    excellence.
+                                </p>
+                                <div class="form">
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                                        <button class="btn btn-warning">Get First Chapter for free</button>
+                                    </div>
+                                </div>
+                                <span>Read by over 50,000+ UX Designers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- User Experience rate End -->
+
+    <!-- Chapter -->
+
+    <div class="chapter">
+        <div class="container">
+            <div class="chapter-container">
+                <div class="chapter-header">
+                    <h5>Your benefits from this</h5>
+                    <h1>What’s inside the book?</h1>
+                </div>
+                <div class="chapter-tab">
+                    <div class="d-flex flex-row padding">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-chap-01-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-01"
+                                        type="button" role="tab" aria-controls="v-pills-chap-01" aria-selected="true">
+                                        <p>Chapter-01</p>
+                                        <h5>Introduction To UX Design</h5>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-chap-02-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-02"
+                                        type="button" role="tab" aria-controls="v-pills-chap-02" aria-selected="false">
+                                        <p>Chapter-02</p>
+                                        <h5>User Personality</h5>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-chap-03-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-03"
+                                        type="button" role="tab" aria-controls="v-pills-chap-03" aria-selected="false">
+                                        <p>Chapter-03</p>
+                                        <h5>User Interview Process</h5>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-chap-04-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-04"
+                                        type="button" role="tab" aria-controls="v-pills-chap-04" aria-selected="false">
+                                        <p>Chapter-04</p>
+                                        <h5>IPrototyping Basics</h5>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-chap-05-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-05"
+                                        type="button" role="tab" aria-controls="v-pills-chap-05" aria-selected="false">
+                                        <p>Chapter-05</p>
+                                        <h5>Visual Design</h5>
+                                    </button>
+                                    <button class="nav-link" id="v-pills-chap-06-tab" data-bs-toggle="pill" data-bs-target="#v-pills-chap-06"
+                                        type="button" role="tab" aria-controls="v-pills-chap-06" aria-selected="false">
+                                        <p>Chapter-06</p>
+                                        <h5>Case Study</h5>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-8 col-sm-12">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-chap-01" role="tabpanel" aria-labelledby="v-pills-chap-01-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding.</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                What is UX Design?
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                How to start UX Designer Career?
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                How fast and slow you should grow?
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Great UX Design Examples
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-chap-02" role="tabpanel" aria-labelledby="v-pills-chap-02-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding.</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Unlimited design possibility
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Completely responsive
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Easy to customize
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-chap-03" role="tabpanel" aria-labelledby="v-pills-chap-03-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding.</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Unlimited design possibility
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Completely responsive
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Easy to customize
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-chap-04" role="tabpanel" aria-labelledby="v-pills-chap-04-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding.</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Unlimited design possibility
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Completely responsive
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Easy to customize
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-chap-05" role="tabpanel" aria-labelledby="v-pills-chap-05-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding. andajlndsljasndlajsndlajsndalsjdnls</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Unlimited design possibility
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Completely responsive
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Easy to customize
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-chap-06" role="tabpanel" aria-labelledby="v-pills-chap-06-tab">
+                                        <p>custom landing pages with Shade that convert more visitors than any website. With lots of unique blocks, you
+                                            can
+                                            easily
+                                            build a page without coding. andajlndsljasndlajsndlajsndalsjdnls</p>
+                                        <p>Simply the best. Better than all the rest. I’d say this product to beginners and advanced users.</p>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Unlimited design possibility
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Completely responsive
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-check-circle  fa-lg" style="color:#5029DE;"></i>
+                                                Easy to customize
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chapter End -->
+
+    <!-- Comments -->
+    <div class="comments">
+        <div class="container">
+            <div class="comments-container">
+                <div class="comments-header">
+                    <h5>Why you should buy this?</h5>
+                    <h1>See what readers saying</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>
+                                    “You made it so simple. My new site is so much faster and easier to work with than my old site. I just
+                                    choose the page,
+                                    make the change and click save.
+                                    </p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>
+                                    “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”</p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>“You made it so simple. My new site is so much faster and easier to work with than my old site. I just
+                                        choose the page,
+                                        make the change and click save.</p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>“You made it so simple. My new site is so much faster and easier to work with than my old site. I just
+                                        choose the page,
+                                        make the change and click save.</p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page,
+                                    make the change and click save.</p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="card-text">
+                                    <p>“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page.</p>
+                                </div>
+                                <div class="person">
+                                    <div class="person-image">
+                                        <img src="https://finestdevs.com/demos/shade-preview/image/l10/client-img-2.png" alt="person-image">
+                                    </div>
+                                    <div class="other-detail">
+                                        <h5>Cameron Anderson</h5>
+                                        <span>From Amazon.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Comments -->
+
+    <!-- About Author -->
+
+    <div class="about-author">
+        <div class="container">
+            <div class="about-author-container">
+                <div class="about-author-header">
+                    <h5>Person who wrote this</h5>
+                    <h1>About the author</h1>
+                </div>
+                <div class="about-author-content">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-3 col-md-3 col-sm-12 image">
+                            <img src="styles/client-img.png" alt="autor-image">
+                        </div>
+                        <div class="col-xl-8 col-lg-9 col-md-9 col-sm-12 content">
+                            <h3>Jon Hodges</h3>
+                            <p>Hey! My name is Artiom and I'm a product designer based in Tel Aviv and Shade. Most recently I led the design of
+                            multiple products at WeWork and prior to that I worked with startups building their products and design culture.</p>
+                            <p>Previous products I built for the design community are used by tens of thousands of designers working at companies like
+                            Google, Airbnb, Netflix and Boeing. Products I built or designed are featured in Wired, TechCrunch, Forbes, Quartz,
+                            Smashing Magazine, Awwwards and more.</p>
+                            <p>Reach me on <a href="#">Twitter</a> or <a href="#">email</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Author End -->
+
+    <!-- last hero section -->
+    <div id="main" class="hero second">
+        <div class="wave">
+            <img src="styles/shape-1.svg" alt="wave" class="w-100">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <img class="w-100" src="https://finestdevs.com/demos/shade-preview/image/l10/hero-img.svg" alt="logo">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="hero-details">
+                        <h1>Download first chapter for free and start reading.</h1>
+                        <h5>Our mission is to be recognised globally as the leading consultancy exclusively focused on data
+                            and information
+                            excellence.</h5>
+                        <div class="form">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Enter Your Email">
+                                <button class="btn btn-warning">Get First Chapter for free</button>
+                            </div>
+                        </div>
+                        <span>Read by over 50,000+ UX Designers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Last hero section end -->
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>© 2021 Shade. All rights reserved</p>
+                </div>
+                <div class="col-lg-6">
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Site Map</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    
+    <script>
+        window.onresize = () => {
+            if (window.innerWidth > 750){
+                closeSlideMenu()
+            }
+
+            if (window.innerWidth <= 479){
+                document.querySelector("#navbar-button").style.display = "none"
+            } else{
+                document.querySelector("#navbar-button").style.display = "block"
+            }
+        } //if window changed to Full Screen Close The Side Menu
+
+        window.onscroll = () => {
+            if (window.scrollY >= 80 && window.scrollY < 700 ){
+                document.querySelector(".navbar-customized").style.display = "none";
+            } else if (window.scrollY > 700) {
+                document.querySelector(".navbar-customized").style.backgroundColor="#000";
+                document.querySelector(".navbar-customized").style.display = "flex";
+                document.querySelector(".navbar-customized").style.animation = "moveInTop 0.5s ease";
+            } 
+            else{
+                document.querySelector(".navbar-customized").style.backgroundColor = "#5129DE";
+                document.querySelector(".navbar-customized").style.display = "flex";
+            }
+        }// on scroll Disappear navbar When On Hero Section and again Appear
+
+        function openSlideMenu() {
+            document.querySelector("body").style.overflowY = "hidden"
+            document.getElementById("side-menu").style.width = "100%";
+            document.getElementById("side-menu-details").style.width = "250px";
+        } // open side Menu On Click on Hamburger menu
+
+        function closeSlideMenu() {
+            document.querySelector("body").style.overflowY = "visible"
+            document.getElementById("side-menu").style.width = "0";
+            document.getElementById("side-menu-details").style.width = "0";
+        } // close side Menu On Click On Close btn
+
+        window.addEventListener("load" , () => {
+                document.querySelector(".spinner-holder").style.display = "none";
+            }) // show Loading Spinner When Page Is Loading
+    </script>
+</body>
+</html>
